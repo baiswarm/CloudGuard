@@ -1,0 +1,11 @@
+[theme]
+base = "dark"
+primaryColor = "#ff4b4b"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Local-only: never listen on the network, and reject uploads over 5 MB (dashboard re-checks).
+address = "127.0.0.1"
+maxUploadSize = 5

@@ -1,0 +1,3 @@
+# Only the dashboard needs this. cloudguard.py and the tests use the standard library only.
+# Streamlit installs pandas as a dependency.
+streamlit>=1.30

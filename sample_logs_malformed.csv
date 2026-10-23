@@ -1,0 +1,18 @@
+﻿ Timestamp , USERNAME ,Source_IP,EVENT_TYPE,Status 
+2026-03-01T09:00:00Z,alice,192.0.2.10,login,success
+2026-03-01T09:01:00Z,dave,198.51.100.7,login,failed
+2026-03-01T09:01:30Z,dave,198.51.100.7,login,DENIED
+2026-03-01T09:02:00Z,dave,198.51.100.7,login,invalid
+not-a-date,bob,192.0.2.11,login,failure
+2026-03-01T09:05:00Z,,192.0.2.12,login,failure
+2026-03-01T09:06:00Z,carol
+2026-03-01T09:07:00Z,carol,192.0.2.12,login,failure,surprise-extra-field
+
+2026-03-01T10:00:00,eve,203.0.113.50,login,failure
+2026-03-01T15:30:30+05:30,root,203.0.113.50,login,failure
+2026-03-01T10:01:00Z,admin,203.0.113.50,login,failure
+2026-03-01T05:01:30-05:00,test,203.0.113.50,login,failure
+2026-03-01T10:02:00Z,admin,203.0.113.50,login,failure
+2026-03-01T10:03:00Z,admin,203.0.113.50,login,success
+2026-03-01T10:20:00Z,alice,192.0.2.10,logout,success
+2026-03-01T10:30:00Z,mallory,192.0.2.99,privilege_change,success

@@ -1,0 +1,18 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+.streamlit/secrets.toml
+
+# Generated output
+report.json
